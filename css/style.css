@@ -1,0 +1,101 @@
+#header{
+    display : flex;
+    align-items: center;
+    justify-content :space-between;
+    padding : 10px 80px;
+    background : rgb(255, 255, 255);
+    margin-top : 1em;
+}
+
+#navbar,#navbar2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em; 
+}
+
+
+h1 { 
+    font-family:'Courier New', Courier, monospace ;
+    font-size:250%;
+    color: rgb(0,0,0);
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding : 0px 20px;
+}
+
+#navbar2 li {
+    list-style: none;
+    padding : 0px 10px;
+}
+
+#checkoutnav h1{
+
+    font-family:'Courier New', Courier, monospace ;
+    font-size:250%;
+    color: rgb(0,0,0);
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#checkoutnav {
+    display: flex;
+}
+
+#checkoutTabs { 
+    margin:auto;
+    display: flex;
+}
+
+
+#checkoutTabs li {
+    padding : 0px 10px;
+    list-style: none;
+    margin : auto;
+}
+
+.form {
+    width: 200px;
+    box-shadow: 5px;
+}
+
+input,#place_order {
+width: 30em;
+padding-bottom: 5px;
+margin-bottom: 5px;
+}
+
+#contact_form,#shipping_address,#payment_method{
+    display: inline-block;
+    align-items: center;
+    margin : 1em 20%;
+    border-color :black;
+    border-radius: 2px;
+    border : solid 2px;
+    padding: 2% 2%;
+}
+
+h2 {
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#payment_method input[type=radio]{
+    margin: 0% 20%;
+}
+
+#place_order {
+margin-left: 20%;
+width : 60%
+}
+
+a {
+    text-decoration: none;
+    color : rgb(76, 76, 76);
+}
